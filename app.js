@@ -11,4 +11,4 @@
 // console.log(`sum : ${a+b}`);
 
 let fs = require('fs');
-fs.writeFileSync("palak.txt","i am palak");
+fs.writeFileSync("palak.txt","I am palak");

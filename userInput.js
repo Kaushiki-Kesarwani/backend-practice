@@ -15,6 +15,7 @@ rl.question("What is your name?",name=>{
                 console.log(` I am good in these skills ${skills}.`)
                 rl.question("Which is your strongest coding language?",code=>{
                     console.log(`${code}.`)
+                    rl.close();
                 })
             })
         })
